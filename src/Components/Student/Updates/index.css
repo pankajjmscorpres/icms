@@ -1,0 +1,81 @@
+
+* {
+    transition: all 0.3s ease-out;
+}
+
+.updatesContainer{
+    width : 95%;
+    height: fit-content;
+    /* padding:  10px; */
+    margin : 10px auto;
+    border: none;
+    /* background-color: #f8f8fa; */
+}
+
+.gocorner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: #00838d;
+    border-radius: 0 4px 0 32px;
+}
+
+.goarrow {
+    margin-top: -4px;
+    margin-right: -2px;
+    color: white;
+    font-family: courier, sans;
+}
+
+.updatesCards {
+    display: block;
+    top: 0px;
+    position: relative;
+    /* max-width: 262px; */
+    text-decoration: none !important;
+    overflow: hidden;
+    margin:10px 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.updatesCards .gocorner {
+    background-color: #00838d;
+    height: 100%;
+    width: 27px;
+    padding-right: 9px;
+    border-radius: 0;
+    transform: skew(12deg);
+    margin-right: -40px;
+    align-items: start;
+    background-image: linear-gradient(-45deg, #8f479a 1%, #dc2a74 100%);
+}
+
+.updatesCards .goarrow {
+    transform: skew(-6deg);
+    margin-left: 2px;
+    margin-top: 9px;
+    opacity: 0;
+}
+
+.updatesCards:hover {
+    border: 1px solid #cd3d73;
+}
+
+.updatesCards h3 {
+    margin-top: 8px;
+}
+
+.updatesCards:hover .gocorner {
+    margin-right: -10px;
+}
+
+.updatesCards:hover .goarrow {
+    opacity: 1;
+}

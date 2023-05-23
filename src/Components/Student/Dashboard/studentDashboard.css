@@ -1,0 +1,39 @@
+.sidebar-header {
+    height: 55px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(61, 83, 84);
+  
+  }
+  
+  .dashboard-right {
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  
+  .css-dip3t8 {
+    background: none !important;
+  }
+  
+  .menuitem {
+    /* background-blend-mode: color-burn; */
+    color: white;
+  }
+  
+  .common-navbar {
+    /* height: 55px; */
+    background-color: rgb(68, 63, 90);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .common-navbar-container>* {
+    color: white;
+  }
+  
+  .menuitem:hover {
+    color: black;
+    background-color: white;
+  }

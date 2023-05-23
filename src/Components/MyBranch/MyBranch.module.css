@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.maincontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+
+#div2 {
+    /* background-image: url('/public/images/bg_login.jpg'); */
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    width: 82%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+#currentBranches {
+    padding: 15px;
+    min-height: 200px;
+    border-bottom: 1px solid;
+}
+
+#teachersDiv {
+    max-height: 450px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+* {
+    transition: all 0.3s ease-out;
+}
+
+.gocorner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: #00838d;
+    border-radius: 0 4px 0 32px;
+}
+
+.goarrow {
+    margin-top: -4px;
+    margin-right: -2px;
+    color: white;
+    font-family: courier, sans;
+}
+
+.branchCards {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 20px 0;
+    margin:10px 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.branchCards .gocorner {
+    background-color: #00838d;
+    height: 100%;
+    width: 27px;
+    padding-right: 9px;
+    border-radius: 0;
+    transform: skew(12deg);
+    margin-right: -40px;
+    align-items: start;
+    background-image: linear-gradient(-45deg, #8f479a 1%, #dc2a74 100%);
+}
+
+.branchCards .goarrow {
+    transform: skew(-6deg);
+    margin-left: 2px;
+    margin-top: 9px;
+    opacity: 0;
+}
+
+.branchCards:hover {
+    border: 1px solid #cd3d73;
+}
+
+.branchCards h3 {
+    margin-top: 8px;
+}
+
+.branchCards:hover .gocorner {
+    margin-right: -10px;
+}
+
+.branchCards:hover .goarrow {
+    opacity: 1;
+}
+
+#unverifiedBox{
+    padding: 15px;
+    min-height: 200px;
+    padding-bottom: 3rem;
+}
